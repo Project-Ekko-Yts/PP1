@@ -1,0 +1,283 @@
+:root {
+  --background-color: #83b4ff;
+  --shadow-color: #5a72a0;
+  --border-color: #1a2130;
+  --font-color: white;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  background: rgb(20, 36, 0);
+  background: linear-gradient(
+    223deg,
+    rgba(20, 36, 0, 1) 0%,
+    rgba(20, 9, 121, 1) 76%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+hr {
+  margin: 20px 15% 20px 15%;
+  border: var(--background-color) 2px solid;
+  box-shadow: var(--shadow-color) 0 0 5px;
+}
+.nav-link {
+  border: blue 2px solid;
+  border-radius: 10px 20px;
+  margin-left: 10px;
+  padding: 10px;
+  color: var(--font-color);
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  background: #61b9db;
+  color: black;
+  transition: 0.5s;
+  box-shadow: blue 0 0 5px;
+}
+
+.navbar-logo {
+  font-size: 80px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+/* ABOUT ME STYLE */
+
+.Aboutme {
+  display: flex;
+  margin: 10% 15% 10% 15%;
+  justify-content: space-between;
+  padding-top: 13vh;
+}
+
+.Aboutme-text {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  background: transparent;
+  padding-bottom: 50px;
+  color: var(--font-color);
+  font-size: 30px;
+  margin-left: 20px;
+  padding-top: 30px;
+}
+
+.btn-md-3 {
+  color: rgb(255, 217, 0);
+  font-size: 30px;
+  font-weight: 30%;
+  text-shadow: var(--background-color) 0 0 10px;
+  margin: 20px;
+  border-radius: 13px;
+}
+
+.btn-md-3:hover {
+  background: #61b9db;
+  color: yellow;
+  box-shadow: white 0 0 5px;
+}
+
+.Aboutme-text h2,
+h4 {
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+h4 {
+  padding-top: 30px;
+  color: var(--font-color);
+  font-size: 30px;
+}
+
+.aboutme-picture {
+  width: 300px;
+  height: 200px;
+  border-radius: 40px;
+}
+
+.aboutme-picture img {
+  border-radius: 20px;
+  width: 300px;
+  box-shadow: rgba(0, 255, 34, 0.87) 0 0 10px;
+  margin-left: 20px;
+}
+
+h1 {
+  text-align: center;
+  justify-content: center;
+  color: #39ff14;
+  font-size: 70px;
+  font-weight: 600;
+  text-shadow: var(--background-color) 0 0 10px;
+  margin: auto;
+  padding-right: 20px;
+  padding-bottom: 40px;
+}
+
+.card-title {
+  color: var(--font-color);
+  text-align: center;
+  padding: 20px 15px 15px 15px;
+  justify-content: center;
+}
+
+.card-title h2 {
+  text-align: center;
+}
+
+.card-body h2 {
+  text-align: center;
+  justify-content: center;
+  margin-right: 50px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  box-shadow: transparent 0 0 0px;
+}
+
+.card {
+  background-color: transparent;
+  border-radius: 50%;
+  width: 80%;
+  margin: auto;
+}
+
+.card img {
+  border-radius: 50%;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-project:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  box-shadow: transparent 0 0 20px;
+}
+
+.card-project {
+  background: transparent;
+  justify-content: center;
+  margin: auto;
+  width: 150%;
+  border-radius: 40px;
+  margin-left: 2%;
+}
+
+.card-img-top {
+  border-radius: 40px;
+  width: 150%;
+}
+
+h5 {
+  text-align: center;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: 80px;
+  text-shadow: var(--background-color) 0 0 10px;
+  margin-left: 80px;
+  color: yellow;
+}
+
+.project {
+  display: flex;
+  margin-top: 100px;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 100px;
+  padding-bottom: 50px;
+}
+
+.Contact {
+  display: flex;
+  padding: 100px;
+  margin: 2% 15% 0 15%;
+}
+
+.Contact-text {
+  color: var(--font-color);
+  padding: 20px;
+  margin-right: 50px;
+}
+
+.Resume {
+  display: flex;
+  padding-top: 100px;
+  margin: 2% 15% 0 15%;
+  color: var(--font-color);
+  text-align: center;
+  flex-direction: column;
+}
+
+.Resume-text {
+  text-align: center;
+}
+
+.col-md-12 {
+  color: var(--font-color);
+}
+
+.btn {
+  background: transparent;
+  border: none;
+}
+
+.form-control {
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.column {
+  justify-content: center;
+  margin: 10%;
+}
+
+.mt-3 {
+  margin-right: ;
+}
+
+.container-contact {
+  text-align: justify;
+}
+
+.contacts {
+  justify-content: center;
+  padding-top: 20px;
+  margin: auto;
+  width: 40%;
+}
+
+.form-group {
+  width: 70%;
+  margin: auto;
+}
+
+.text-center-1 {
+  text-align: center;
+}
+
+.text-center-1:hover {
+  color: #39ff14;
+  text-shadow: var(--background-color) 0 0 10px;
+  border-radius: 13px;
+}
+
+.Footer {
+  padding-bottom: 15vh;
+}
